@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2563eb" />
+    <title>Sin conexión · Distancia a restaurantes</title>
+    <style>
+      :root {
+        color: #0f172a;
+        background: #f8fafc;
+        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      }
+
+      body {
+        display: grid;
+        min-height: 100vh;
+        min-height: 100dvh;
+        margin: 0;
+        place-items: center;
+      }
+
+      main {
+        width: min(34rem, calc(100% - 3rem));
+        padding: 2rem;
+        border: 1px solid #cbd5e1;
+        border-radius: 1rem;
+        background: #ffffff;
+        box-shadow: 0 1rem 3rem rgb(15 23 42 / 12%);
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      .version {
+        color: #475569;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>No hay conexión</h1>
+      <p>No fue posible cargar la página solicitada desde la red. El service worker está mostrando la página guardada para cuando no haya conexión.</p>
+      <p class="version">Página sin conexión <strong>v1</strong></p>
+    </main>
+  </body>
+</html>

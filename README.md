@@ -91,7 +91,7 @@ sw.js
 icons/
 ```
 
-El ZIP se publica mediante el mismo portal utilizado en el Laboratorio 2:
+El ZIP se publica mediante el portal de publicación PWA:
 
 1. Ingresar el RUT y la clave temporal
 2. Validar los datos y confirmar la URL asignada
